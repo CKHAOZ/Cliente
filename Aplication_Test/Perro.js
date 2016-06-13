@@ -12,8 +12,6 @@ function Perro() {
         ContextoPerro = this;
         ContextoPerro.Nombre = nombre;
         ContextoPerro.Ladrido = 'Woof';
-        
-        ContextoPerro.Ladrar();
     }
 
     this.Ladrar = function fnLadrar() {
